@@ -1,0 +1,17 @@
+   0 mkdir /opt/urmat
+   1 cd /opt//urmat/
+   2 nano taskUrmat.sh
+   3 chmod 744 taskUrmat.sh
+   4 ./taskUrmat.sh 
+   5 ls -l
+   6 crontab -e
+   7 mkdir /opt/urmat/hwarchive
+   8 ls -l
+   9 tar -czvf hwarchive.tar.gz 113.10.23 213.10.23 313.10.23 413.10.23 513.10.23 613.10.23 713.10.23 813.10.23 913.10.23 1013.10.23
+  10 ls -l
+  11 mv hwarchive.tar.gz hwarchive/
+  12 ls -l
+  13 cd /opt/urmat/hwarchive/
+  14 ls -l
+  15 history
+  16 history > history.txt
